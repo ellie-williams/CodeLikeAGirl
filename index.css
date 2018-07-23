@@ -1,7 +1,26 @@
-h1 {
-  color: #a9b5ba
+.h1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-p {
-  color: #42c5f4
+.p-container  {
+
+  color: #a9b5ba;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 180px;
+}
+
+.guide {
+  color: #7f8da3;
+  font-size: 20px;
+}
+
+* {
+  color: #42c5f4;
+  font-family: 'Eczar', serif;
 }
